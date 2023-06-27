@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to bottom right, #2a2929, #FFFFFF);
+}
+
+.introduction-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 180px;
+    margin-right: 180px;
+
+}
+
+.introduction-h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.introduction-p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/*end of the introduction text*/
+
+/*start of the buttons for the topics*/
+
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-container>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.buttons-container>ul>li>a{
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.buttons-container>ul>li{
+    list-style: none;
+    background-color: rgb(99, 98, 98);
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.buttons-container>ul>li:hover{
+    scale: 1.1;
+    background-color: rgb(37, 36, 36);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgb(29, 29, 29);
+}
+
+/*end of buttons for topics*/
+
+
+/*feedback box container start*/
+
+.paragraf-over-flexbox{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    max-width: 80%;
+    margin-top: 100px;
+    color: white;
+    
+}
+.flexbox-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:solid 3px black;
+}
+.feedback-box {
+    margin-top: 70px;
+    margin-bottom: 200px;
+    width: 800px;
+    height: 450px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  
+  .feedback-box h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+  
+  .feedback-box form {
+    margin-top: 20px;
+  }
+  
+  .feedback-box textarea {
+    width: 100%;
+    height: 320px;
+    resize: vertical;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .feedback-box button {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .feedback-box button:hover {
+    background-color: #45a049;
+    transition: 0.3s;
+    scale: 1.05;
+  }
+
+
+
+  /*login and sign uo form*/
+
+  
+  .signup-form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+  }
+
+  .signup-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 20%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .signup-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .signup-form input[type="submit"]:hover {
+    background-color: #387e3b;
+    scale: 1.05;
+  }
+
+  .suggestion-to-signup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+
+  }
+  /*end of loging form*/
+
+
